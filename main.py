@@ -17,7 +17,7 @@ while is_continue:
         print("We have rewards and rules for players:\n"
               f"We have {len(question_bank)} questions\n"
               "* If you've got from 35% - 50% question right out of the total number of questions. You will get Bronze Medal🥇😉\n"
-              "* If you've got from 50% - 75% question right out of the total number of question. You will get the Silver Medal🥈😄\n"
+              "* If you've got from 50% - 75% question right out of the total number of questions. You will get the Silver Medal🥈😄\n"
               "* If you've got from 75% - 100% question right out of the total number of questions. You will get the Gold Cup🏆\n\n"
               )
         quiz = QuizBrain(question_bank)
