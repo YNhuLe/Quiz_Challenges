@@ -8,3 +8,4 @@ total questions.
      5/20: bronze medal,
      10/20: Silver medal
      15/20: Gold medal
+- Prompt the congrats message to user
