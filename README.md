@@ -9,4 +9,4 @@ total questions.
      10/20: Silver medal
      15/20: Gold medal
 - Prompt the congrats message to user
-- Prompt users about the condition to win the prizes
+- Prompt users about the conditions to win the prizes
