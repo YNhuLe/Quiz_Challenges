@@ -1,6 +1,6 @@
 class QuizBrain:
     def __init__(self, question_list):
-        self.question_number = 0
+        self.question_number = 1
         self.question_list = question_list
         self.score = 0
 
@@ -45,3 +45,14 @@ class QuizBrain:
         print(f"The correct answer is: {correct_answer}")
         print(f"Your current score is: {self.score}/{self.question_number}")
         print("\n")
+
+    def check_prize(self, score, question_list):
+        average = (score/len(question_list) )*100
+        if 35 <= average <= 50:
+            print(f"Congrats!! You've won the Bronze Medal🥇😉 with {score}/{len(question_list)}")
+        elif  50 < average <= 75:
+            print(f"Congrats!! You've won the Silver Medal🥈😄with {score}/{len(question_list)}")
+        elif 75 < average <= 100:
+            print(f"Well done!! You've won the Gold Cup🏆 🎊 with {score}/{len(question_list)}")
+        else:
+            print(f"You've got this, believe in yourself!!!🥉")
