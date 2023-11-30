@@ -51,7 +51,7 @@ class QuizBrain:
         if 35 <= average <= 50:
             print(f"Congrats!! You've won the Bronze Medal🥇😉 with {score}/{len(question_list)}")
         elif  50 < average <= 75:
-            print(f"Congrats!! You've won the Silver Medal🥈😄with {score}/{len(question_list)}")
+            print(f"Congrats!! You've won the Silver Medal🥈😄 with {score}/{len(question_list)}")
         elif 75 < average <= 100:
             print(f"Well done!! You've won the Gold Cup🏆 🎊 with {score}/{len(question_list)}")
         else:
